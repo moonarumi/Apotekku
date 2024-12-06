@@ -1,0 +1,101 @@
+body {
+    background-color: #f3c8f9;
+}
+
+.container-navbar {
+    background-color: #7E60BF ;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+       
+}
+
+
+.ul-navbar {
+    display: flex;
+    height: 100px;
+    justify-content: left;
+    align-items: center;
+    border: 1px;
+    list-style-type: none;
+    padding: 20px;
+    margin: 10px;
+}
+
+.li-navbar {
+    border: 1px solid white;
+    background-color: aliceblue;
+    list-style-type: none;
+    padding: 20px;
+    margin: 5px;
+}
+
+
+.menu {
+    float: right;
+}
+
+nav {
+position: fixed;
+    width: 100%;
+    margin: auto;
+    line-height: 35px;
+    position: sticky;
+    top: 0;
+    background-color: #d9d9d9;
+    border-top: 3px solid;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+    display: flex;
+    overflow: hidden;
+}
+
+nav u li  {
+float: left;
+}
+
+nav ul li a {
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+text-decoration: underline;
+color: rgb(28, 84, 103);
+transition: 1.3s;
+text-shadow: 1px 2px 4px ;
+}
+
+
+.medicine-section {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    float: center;
+}
+
+.medicine {
+    background-color: #fff;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    padding: 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    justify-content: center;
+}
+
+.download img {
+    width: 50%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.footer {
+    text-align: center;
+    background-color: powderblue;
+}
